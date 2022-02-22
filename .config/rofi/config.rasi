@@ -1,0 +1,50 @@
+/* Written by: Burton Sumner with help from 
+ * Eric Murphy from his YT video on configuring rofi
+ * with a custom theme, hence theme set as,"/dev/null." */
+
+Configuration {
+	display-drun: "Run :";
+	drun-display-format: "{icon} {name}";
+	font: "Comic Sans MS Bold 12";
+	modi: "window,run,drun";
+	show-icons: true;
+	icon-theme: "candy-icons";
+}
+@theme "/dev/null"
+
+* {
+	bg: #28282B4A;
+	elementTxt: #FFFFFF;
+	elementTxt-selected: #787C99;
+	elementTxt-selected-bg: #28282BAA;
+	background-color: @bg;
+	text-color: @elementTxt-selected;
+	
+	border: 0;
+	margin: 0;
+	padding: 0;
+	spacing: 0;
+}
+
+window {
+	width: 33%;
+	height: 56%;
+}
+
+element {
+	text-color: @elementTxt-selected;
+	margin: 0;
+	spacing: 0;
+}
+
+element selected {
+	padding: 12;
+	text-color: @elementTxt;
+	background-color: @elementTxt-selected-bg;
+}
+
+element-text {
+	padding: 12;
+	background-color: inherit;
+	text-color: inherit;
+}
