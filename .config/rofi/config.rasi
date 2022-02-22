@@ -1,6 +1,8 @@
 /* Written by: Burton Sumner with help from 
- * Eric Murphy from his YT video on configuring rofi
- * with a custom theme, hence theme set as,"/dev/null." */
+ * Eric Murphy's YT video. 
+ * 
+ * Eric's github page: 
+ * https://github.com/ericmurphyxyz */
 
 Configuration {
 	display-drun: "Run :";
