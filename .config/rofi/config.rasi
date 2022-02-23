@@ -5,7 +5,7 @@
  * https://github.com/ericmurphyxyz */
 
 Configuration {
-	display-drun: "Run :";
+	display-drun: "Run : ";
 	drun-display-format: "{icon} {name}";
 	font: "Bitstream Vera Serif Roman 12";
 	modi: "window,run,drun";
@@ -30,8 +30,8 @@ Configuration {
 }
 
 window {
-	width: 33%;
-	height: 56%;
+	width: 512;
+	height: 512;
 }
 
 element {
@@ -46,7 +46,7 @@ element selected {
 }
 
 element-text {
-	padding: 12;
+	padding: 8;
 	background-color: inherit;
 	text-color: inherit;
 }
