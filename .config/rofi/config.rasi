@@ -7,7 +7,7 @@
 Configuration {
 	display-drun: "Run :";
 	drun-display-format: "{icon} {name}";
-	font: "Comic Sans MS Bold 12";
+	font: "Bitstream Vera Serif Roman 12";
 	modi: "window,run,drun";
 	show-icons: true;
 	icon-theme: "candy-icons";
