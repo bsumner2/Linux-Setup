@@ -15,12 +15,13 @@ Configuration {
 @theme "/dev/null"
 
 * {
-	bg: #28282B4A;
-	elementTxt: #FFFFFF;
-	elementTxt-selected: #787C99;
+	bg: #28282B70;
+	searchBoxTxt: #FFFFFF;
+	elementTxt: #787CAA;
+	elementTxt-selected: #FFFFFF;
 	elementTxt-selected-bg: #28282BAA;
 	background-color: @bg;
-	text-color: @elementTxt-selected;
+	text-color: @searchBoxTxt;
 	
 	border: 0;
 	margin: 0;
@@ -34,14 +35,13 @@ window {
 }
 
 element {
-	text-color: @elementTxt-selected;
+	text-color: @elementTxt;
 	margin: 0;
 	spacing: 0;
 }
 
 element selected {
-	padding: 12;
-	text-color: @elementTxt;
+	text-color: @elementTxt-selected;
 	background-color: @elementTxt-selected-bg;
 }
 
