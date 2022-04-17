@@ -1,0 +1,6 @@
+runtime! archlinux.vim
+
+syntax on
+set background=dark
+set number
+colo PaperColor
